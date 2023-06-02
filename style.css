@@ -1,0 +1,124 @@
+
+#section1{ 
+    margin-top: 100px; 
+    margin-bottom: 100px;
+}
+#section1 .cote{ 
+    background: #F6E1C5; 
+    min-height: 300px; 
+    width: 500px; 
+    border-radius: 5px; 
+    left: 10%;
+}
+#section1 .cote h3{ 
+    font-size: 15px; 
+    font-weight: 700;
+    padding-top: 50px;
+}
+#section1 .cote h4{ 
+    font-size: 32px; 
+    font-weight: 100; 
+}
+#section1 .cote p{ 
+    font-size: 16px; 
+    font-weight: 400;
+}
+#section1 .cote button{ 
+    width: 150px; 
+    height: 58px; 
+    background: #7B261A; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 15px; 
+    font-weight: 700; 
+    color: white;
+}
+#section1 img{ 
+    max-width: 750px; 
+    height: 450px;
+}
+/* ---------------------------------
+         SECTION 2
+--------------------------------- */
+#section2{ 
+    width: 100%; 
+    background: #832824; 
+    height: 535px; 
+    padding-top: 80px;
+}
+#section2 .box{ 
+    height: 353px; 
+    max-width: 873px; 
+    border-radius: 5px; 
+    background: #F6E1C5; 
+    margin: 10px;
+    padding-left: 40px; 
+    padding-right: 40px;
+}
+#section2 .col-12{ 
+    border: 1px solid #F6E1C5; 
+    border-radius: 5px; 
+    margin-top: 82px; 
+    margin-bottom: 102px;
+    max-width: max-content; 
+    margin: auto;
+}
+#section2 .box h2{ 
+    font-size: 15px; 
+    font-weight: 700; 
+    padding-top: 55px;
+}
+#section2 .box h3{ 
+    font-size: 32px; 
+    font-weight: 100;
+}
+#section2 .box p{ 
+    font-size: 16px; 
+    font-weight: 400;
+}
+@media screen and (max-width:768px) {
+    #section1 .gauche{
+        left: 0;
+        margin: auto;
+    }
+    #section1 img{
+        height: auto;
+    }
+}
+@media screen and (max-width:550px) {
+    #section1 .gauche{
+        width: max-content;
+    }
+    #section1 .accueil{
+        min-width: 300px;
+    }
+    #section1 .gauche button{
+        bottom: -20px;
+    }
+    #section2 .box{
+        height: max-content;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:768px) {
+
+    #section1 .gauche{
+        left: 0;
+        margin: auto;
+        align-self: center;
+    }
+    #section1 img{
+        height: 576.04px;
+        width: 764px;
+        margin: auto;
+    }
+    #section1 .accueil{
+        width: 764px;
+        margin: auto;
+    }
+
+}
+
+
+ 
+
+

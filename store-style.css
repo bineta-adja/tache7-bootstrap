@@ -1,0 +1,51 @@
+
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+#section1{ 
+    margin-top: 200px; 
+    margin-bottom: 200px; 
+    width: 100%; 
+    padding-bottom: 74px; 
+    padding-top: 74px;
+    background:#93403e;
+}
+.border_box{ padding: 12px; border: 1px solid #CD5449;}
+.table_box{ background: #F6E1C5; padding-left: 100px; padding-right: 100px; padding-top: 52px;
+    padding-bottom: 52px;}
+.table_box h2{ font-size: 18px; font-weight: 600; color: #000000;}
+.table_box h4{ font-size: 48px; font-weight: 100; color: #000000;}
+.table_box h6{ font-size: 15px; font-weight: 400; color: #000000;}
+table{ color: black; border-color: #1b1b1b;}
+table td{ font-size: 18px; font-weight: 400; color: #000000;}
+.table-box-foot{ padding-top: 65px;}
+.thursday{ color: #A5342B;}
+
+
+#section2-2{ width: 100%; margin-bottom: 100px;}
+#section2-2 .col-box{ width: max-content; padding: 0; margin: 0;}
+#section2-2 img{ max-width: 1168px; min-height: 418px;}
+#section2-2 .box{  position: relative; top: -100px; max-width: 964px; min-height: 418px; background: #F6E1C5;
+    padding-top: 58px; padding-bottom: 82px; padding-left: 20px; padding-right: 20px; border-radius: 5px;}
+#section2-2 .box h2{ font-size: 18px; font-weight: 600; color: #000000;}
+#section2-2 .box p{ font-size: 16px; font-weight: 400;  color: #000000; margin-bottom: 20%;}
+
+@media screen and (max-width:768px) {
+    .table_box{
+        padding-left: 0;
+        padding-right: 0;
+    }  
+    #section2-2 .box{
+        bottom: 100px;
+    } 
+}
+#footer {
+    margin-top: 0%;
+}
+
+
+
+
